@@ -28,9 +28,6 @@ streamlit run main.py
 python orchestration_dag.py
 ```
 
-## Outputs
-- Two-pager markdown exports in `outputs/`
-- JSON analysis dumps from orchestrator in `outputs/`
 
 ## Notes
 - If API keys are missing, the app falls back to mock data.
