@@ -1,0 +1,19 @@
+search:
+  keyword: "smart fan"
+  num_results: 20
+  platforms: ["google", "youtube"]
+
+brands:
+  primary: "atomberg"
+  competitors: ["havells", "crompton", "bajaj", "orpat", "usha"]
+
+apis:
+  serpapi:
+    base_url: "https://serpapi.com/search"
+  youtube:
+    base_url: "https://www.googleapis.com/youtube/v3"
+  gemini:
+    model_name: "models/gemini-2.0-flash"
+
+analysis:
+  sov_metrics: ["volume", "engagement", "sentiment"]

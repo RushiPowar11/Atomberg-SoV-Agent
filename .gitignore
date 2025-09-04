@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+venv/
+env/
+.python-version
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+sov_analysis.log
+
+# Secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Outputs
+outputs/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Tests/Coverage
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Local config
+config_local.yaml
